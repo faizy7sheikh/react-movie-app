@@ -3,13 +3,13 @@ import Heading from './Heading';
 import MovieList from './MovieList';
 
 
-const Index = () => {
+const WebSeries = () => {
     const [movie, setMovie] = useState([]);
     const [favourit,setFavourite] = useState([]);
   // const [SearchValue, setSearchValue] = useState('');
 
   const getMovieList = async () => {
-    const url = "http://www.omdbapi.com/?s=star wars&apikey=38990787";
+    const url = "http://www.omdbapi.com/?type=series&apikey=38990787";
     const response = await fetch(url);
     var result = await response.json();
     setMovie(result.Search);
@@ -41,4 +41,4 @@ const Index = () => {
     )
 }
 
-export default Index
+export default WebSeries

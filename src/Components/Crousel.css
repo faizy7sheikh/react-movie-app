@@ -1,0 +1,13 @@
+.slider{
+    display: inline;
+    overflow: auto;
+    width: 250px;
+    height: 200px;
+    
+    
+}
+.crousel{
+    flex-wrap: nowrap;
+    
+    
+}
