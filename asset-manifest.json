@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-movie-app/static/css/main.16d84838.css",
+    "main.js": "/react-movie-app/static/js/main.1cf3f645.js",
+    "static/js/787.7c42db31.chunk.js": "/react-movie-app/static/js/787.7c42db31.chunk.js",
+    "static/media/rose.jpg": "/react-movie-app/static/media/rose.cc58874b11a42d2e68d4.jpg",
+    "index.html": "/react-movie-app/index.html",
+    "main.16d84838.css.map": "/react-movie-app/static/css/main.16d84838.css.map",
+    "main.1cf3f645.js.map": "/react-movie-app/static/js/main.1cf3f645.js.map",
+    "787.7c42db31.chunk.js.map": "/react-movie-app/static/js/787.7c42db31.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16d84838.css",
+    "static/js/main.1cf3f645.js"
+  ]
+}
