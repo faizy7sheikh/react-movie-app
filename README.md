@@ -15,3 +15,6 @@ watch later. future enchance will pe he can download and upload new movie and se
 ![Screenshot](src/assets/screenshot/home.PNG)
 ![Screenshot](src/assets/screenshot/secondscree.PNG)
 ![Screenshot](src/assets/screenshot/thirdscreen.PNG)
+
+## Demo link
+![demo](https://github.com/faizy7sheikh/react-movie-app)
