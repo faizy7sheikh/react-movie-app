@@ -1,0 +1,7 @@
+.movie-details{
+    display: block;
+}
+.movie-details div{
+    display: inline-block;
+    padding: 10px;
+}
