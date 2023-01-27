@@ -15,7 +15,7 @@ const MovieDetails = () => {
     console.log(movieId.state.movieId);
     const getMovieDetails = async () => {
         const url = `http://www.omdbapi.com/?i=${id}&apikey=38990787`;
-        const response = await fetch(url);
+        const response = await fetch(url,{mode:'no-cors'});
         var result = await response.json();
         console.log(result);
         setMovie(result);
