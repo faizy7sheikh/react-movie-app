@@ -16,7 +16,7 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path='/' index element={<Index />} />
+        <Route path='/'  element={<Index />} />
         <Route path='movie-details' element={<MovieDetails />} />
         <Route path='web-series' element={<WebSeries />} />
       </Routes>

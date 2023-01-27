@@ -10,7 +10,7 @@ const Index = () => {
 
   const getMovieList = async () => {
     const url = "http://www.omdbapi.com/?s=star wars&apikey=38990787";
-    const response = await fetch(url,{mode:'no-cors'});
+    const response = await fetch(url,{mode:'cors'});
     var result = await response.json();
     setMovie(result.Search);
     console.log(result.Search);
